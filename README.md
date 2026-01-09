@@ -37,8 +37,11 @@ This repo contains guides and templates to build your own.
 - CLAUDE.md template
 - Objectives template
 - Project README template
-- 5 slash command templates
+- 5 slash command templates (start-session, end-session, add-task, commit, thinking-partner)
 - Governance rules
+- Weekly Review template
+- Personal Stack Spec (Lite) - technical reference
+- Inbox Processing Guide - routing decision tree
 
 **Canon Kit** (`templates/canon/`):
 - Canon README template
