@@ -30,6 +30,8 @@ This repo contains guides and templates to build your own.
 | [Builder's Guide](guides/Personal-Stack-Builders-Guide.md) | 4-week step-by-step setup |
 | [Quick Reference](guides/Personal-Stack-Quick-Reference.md) | One-page cheat sheet |
 | [Canon Builder's Guide](guides/Canon-Builders-Guide.md) | Advanced: building governed knowledge systems |
+| [MCP Server Setup](guides/MCP-Server-Setup-Guide.md) | Extend Claude Code with external tools |
+| [Voice Capture Integration](guides/Voice-Capture-Integration-Guide.md) | Capture thoughts by voice into your vault |
 
 ### Starter Templates
 
