@@ -1,156 +1,117 @@
 # Personal Stack Starter
 
-Build an AI-native productivity system using Obsidian, Claude Code, and Git.
-
-## What Is This?
-
-A **Personal Stack** is a knowledge system designed for AI collaboration from the start. Instead of bolting AI onto existing tools, you build a system where:
-
-- AI knows your context, goals, and projects
-- Session start loads everything you need
-- Session end documents and commits your work
-- Knowledge compounds over time
-
-This repo contains guides and templates to build your own.
-
-## Who Is This For?
-
-- Knowledge workers (writing, teaching, consulting, building)
-- People who've tried productivity systems and watched them decay
-- People who want AI that actually knows what they're working on
-
-## What's Included
-
-### Guides
-
-| Guide | Description |
-|-------|-------------|
-| [Personal Stack Essay](guides/Personal-Stack-Essay.md) | The philosophy: why this approach works |
-| [One-Pager](guides/Personal-Stack-One-Pager.md) | Plain-language explainer (2 min read) |
-| [Builder's Guide](guides/Personal-Stack-Builders-Guide.md) | 4-week step-by-step setup |
-| [Quick Reference](guides/Personal-Stack-Quick-Reference.md) | One-page cheat sheet |
-| [Canon Builder's Guide](guides/Canon-Builders-Guide.md) | Advanced: building governed knowledge systems |
-| [MCP Server Setup](guides/MCP-Server-Setup-Guide.md) | Extend Claude Code with external tools |
-| [Voice Capture Integration](guides/Voice-Capture-Integration-Guide.md) | Capture thoughts by voice into your vault |
-
-### Starter Templates
-
-**Basic Stack** (`templates/personal-stack/`):
-- CLAUDE.md template
-- Objectives template
-- Project README template
-- 5 slash command templates (start-session, end-session, add-task, commit, thinking-partner)
-- Governance rules
-- Weekly Review template
-- Personal Stack Spec (Lite) - technical reference
-- Inbox Processing Guide - routing decision tree
-
-**Canon Kit** (`templates/canon/`):
-- Canon README template
-- Ontology template
-- Framework template
-- Governance template
-- Example template
-
-## Quick Start
-
-### Option A: Copy Templates Manually
-
-1. Read the [Builder's Guide](guides/Personal-Stack-Builders-Guide.md)
-2. Create your Obsidian vault
-3. Copy templates from `templates/personal-stack/` as needed
-
-### Option B: Clone and Customize
-
-```bash
-git clone https://github.com/sklar1000/personal-stack-starter.git
-cd personal-stack-starter
-
-# Copy templates to your vault
-cp -r templates/personal-stack/* /path/to/your/vault/
-```
-
-## The 4-Week Build
-
-| Week | Focus | Outcome |
-|------|-------|---------|
-| 1 | Foundation | Folder structure + Objectives + Git |
-| 2 | AI Integration | CLAUDE.md + start/end session commands |
-| 3 | Workflow | add-task, commit, thinking-partner |
-| 4 | Governance | Anti-clutter rules + review rhythms |
-
-## Core Concepts
-
-### Folder Structure
-
-```
-Your-Vault/
-├── 00_Inbox/           # Quick captures (48h max)
-├── 00_Operations/      # System rules
-├── 01_Actions/         # Projects
-│   ├── Focus/          # THIS WEEK (max 2)
-│   ├── Background/     # When time allows
-│   └── Paused/         # Blocked/waiting
-├── 02_Contexts/        # Ongoing areas
-├── 03_Knowledge/       # Reference + Canons
-└── 04_Archive/         # Done (date-stamped)
-```
-
-### Essential Commands
-
-| Command | Purpose |
-|---------|---------|
-| `/start-session` | Load context, show focus |
-| `/end-session` | Document, commit, close |
-| `/add-task` | Capture to backlog |
-| `/commit` | Smart git commit |
-| `/thinking-partner` | Explore hard problems |
-
-### Anti-Clutter Rules
-
-- **Inbox Zero**: Process within 48 hours
-- **Rule of 3**: 3+ items before creating a folder
-- **Focus Limit**: Max 2 projects in Focus
-- **Archive Fast**: Done → Archive with date
-
-## Advanced: Building Canons
-
-Once your basic stack is working, you can add **Canons**—governed knowledge systems for domains where you need:
-
-- Shared vocabulary (ontology)
-- Proven frameworks
-- Status gates (draft → candidate → stable)
-- Change governance
-
-See the [Canon Builder's Guide](guides/Canon-Builders-Guide.md).
-
-## Technology Stack
-
-**Required:**
-- [Obsidian](https://obsidian.md/) (free)
-- [Claude Code](https://claude.ai/claude-code) (requires Claude subscription)
-- Git
-
-**Optional:**
-- GitHub (backup + sharing)
-- tmux (session management)
-
-## License
-
-MIT - Use freely, attribution appreciated.
-
-## Contributing
-
-This is a personal methodology, but improvements welcome:
-- Bug fixes in templates
-- Clarifications in guides
-- Typo fixes
-
-## Related
-
-- [Personal Cartography](https://michaelsklar.ai) - The methodology this system supports
-- [Claude Code Documentation](https://docs.anthropic.com/claude-code)
+Turn Claude Code into your second brain. One folder. One file. Fifteen minutes.
 
 ---
 
-*The best system is the one you actually use. Start simple. Add when needed.*
+## What This Is
+
+A **Personal Stack** is a folder of markdown files that gives AI your context — who you are, what you're working on, and how you work. Instead of re-explaining yourself every conversation, your AI starts every session already knowing you.
+
+Intelligence is a commodity. Memory is the asset.
+
+This repo gives you everything you need to start, and a path to grow when you're ready.
+
+---
+
+## What You Need (March 2026)
+
+- A computer (Mac, Windows, or Linux)
+- A [Claude Pro, Max, or Teams subscription](https://claude.ai/pricing) (starts at $20/mo)
+- 15-30 minutes
+
+No Python. No Node.js. No technical background required.
+
+---
+
+## Choose Your Start
+
+### Just Exploring? → [Track A](01-foundation/TRACK-A-EXPLORE.md)
+
+**15 minutes. Zero commitment.**
+One folder, one file, three commands. Talk to Claude and see what happens. Perfect if you've never used Claude Code or you just want to try it before building anything serious.
+
+### Ready to Build? → [Track B](01-foundation/TRACK-B-BUILD.md)
+
+**30 minutes. Full working system.**
+Git initialized, project tracking, all five starter commands, governance rules. Start here if you already know you want this — you have a project in mind and you want to move fast.
+
+> **Not sure?** → [Find Your Path](profiles/FIND-YOUR-PATH.md) — answer 3 questions and get a personalized recommendation.
+
+---
+
+## How This Repo Works
+
+```
+personal-stack-starter/
+│
+├── 01-foundation/          ← Start here (both tracks)
+│   ├── TRACK-A-EXPLORE.md      15-min quickstart
+│   ├── TRACK-B-BUILD.md        30-min full setup
+│   ├── SETUP.md                Prerequisites + install
+│   └── commands/               Your first AI commands
+│
+├── 02-workflow/            ← Add when sessions feel repetitive
+│   └── UPGRADE.md              "You're ready when..."
+│
+├── 03-system/              ← Add when one project isn't enough
+│   └── UPGRADE.md              "You're ready when..."
+│
+├── profiles/               ← Find your path
+│   └── FIND-YOUR-PATH.md      Persona-based routing
+│
+└── reference/              ← Deep reads (optional)
+    ├── design-patterns.md      10 patterns that make it work
+    └── maturity-model.md       Where you are → where you're going
+```
+
+**Your stack grows with you.** Start with Track A or B. Add Tier 2 when you hit friction. Add Tier 3 when you outgrow one project. You'll know when you're ready — each upgrade guide tells you the signals.
+
+---
+
+## Install Claude Code
+
+**Mac / Linux:**
+```bash
+curl -fsSL https://claude.ai/install.sh | bash
+```
+
+**Windows PowerShell:**
+```powershell
+irm https://claude.ai/install.ps1 | iex
+```
+
+Then run `claude` and authenticate in your browser. That's it.
+
+→ Full prerequisites and troubleshooting: [SETUP.md](01-foundation/SETUP.md)
+
+---
+
+## What People Build With This
+
+- **A job search system** that remembers every company, every conversation, every version of your resume
+- **A consulting practice** where your AI knows your methodology, your clients, and your templates
+- **A course or workshop** with session plans, student tracking, and materials that compound
+- **A writing practice** where your AI knows your voice, your ideas, and your publishing pipeline
+- **A daily operating system** that loads your priorities, tracks your projects, and commits your progress
+
+All from markdown files in a folder. No apps to install. No databases to manage. No subscriptions beyond Claude.
+
+---
+
+## Getting Updates
+
+**Star this repo** to get notified when new features, commands, and guides are added.
+
+Check the [CHANGELOG](CHANGELOG.md) for what's new.
+
+---
+
+## Questions?
+
+- Open an [issue](../../issues) if something doesn't work
+- Check [reference/](reference/) for the philosophy and architecture behind the system
+
+---
+
+*Built by [Michael Sklar](https://michaelsklar.ai). Born from 8,000+ files, 50+ commands, and the belief that your AI should know you as well as your best colleague does.*
