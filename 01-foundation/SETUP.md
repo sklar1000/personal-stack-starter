@@ -97,6 +97,20 @@ No API keys to paste. No config files to edit.
 
 ---
 
+## Step 5: Install Obsidian (Optional)
+
+Obsidian is a free markdown editor that gives you a visual interface for your stack. You don't need it — Claude Code and any text editor work fine. But if you want to browse your files with backlinks, graph views, and live preview, Obsidian is built for exactly this kind of folder.
+
+**Why consider it**: Your stack is a folder of markdown files. Obsidian turns that folder into a connected knowledge base you can navigate visually — see how files link to each other, search across everything, and edit without touching the terminal.
+
+**Download**: [obsidian.md](https://obsidian.md) — free for personal use.
+
+After installing, open Obsidian and select "Open folder as vault" → point it at your stack folder (e.g., `my-stack/`). That's it. Obsidian reads the same files Claude Code does — no sync, no duplication.
+
+**Recommended for**: Track B users who plan to add multiple projects or use Tier 2+ folder structures. Not needed for Track A.
+
+---
+
 ## Troubleshooting
 
 **"command not found: claude"**
