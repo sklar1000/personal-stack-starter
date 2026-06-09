@@ -99,6 +99,13 @@ All from markdown files in a folder. No apps to install. No databases to manage.
 
 ---
 
+## Editions
+
+- **This kit (general-purpose)** — for any operator: job search, consulting, writing, a daily OS.
+- **Founder edition** ([founder-stack-starter](https://github.com/sklar1000/founder-stack-starter) · [overview](https://michaelsklar.ai/svs)) — for startup teams. Same bones, plus a customer-discovery + riskiest-assumptions layer (the New Enterprises method) and a `team/` identity layer. Use that one if you're building a company.
+
+---
+
 ## Getting Updates
 
 **Star this repo** to get notified when new features, commands, and guides are added.
