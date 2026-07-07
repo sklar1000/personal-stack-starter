@@ -17,21 +17,17 @@ git log --oneline -3 2>/dev/null || echo "No git history yet"
 
 ## Output Format
 
-```
-SESSION READY
-=============
-[Day], [Date]
+Render this as normal markdown, not inside a code block:
 
-WORKING ON:
-  [Project Name]
-  → Next: [most important task from CLAUDE.md or project README]
-
-RECENT:
-  [last 3 commits, if any]
-
----
-What's the focus today?
-```
+> ## Session ready — [Day], [Date]
+>
+> **Working on:** [Project Name]
+> → Next: [most important task from CLAUDE.md or project README]
+>
+> **Recent:** [last 3 commits, if any]
+>
+> ---
+> What's the focus today?
 
 ## After Startup
 

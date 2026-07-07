@@ -14,20 +14,18 @@ Verify my personal stack setup and tell me what's working and what's missing.
 
 ## Output format
 
-```
-SETUP CHECK
-===========
+Render this as normal markdown, not inside a code block:
 
-CLAUDE.md:     [Found / Missing]
-Git:           [Initialized / Not initialized]
-Commands:      [N found: list them / None]
-Structure:     [Folders found / Flat]
-Projects:      [N projects / None]
-
-MATURITY LEVEL: [1-3 based on what exists]
-
-SUGGESTIONS:
-- [What to add next, if anything]
-```
+> ## Setup check
+> - **CLAUDE.md:** [Found / Missing]
+> - **Git:** [Initialized / Not initialized]
+> - **Commands:** [N found: list them / None]
+> - **Structure:** [Folders found / Flat]
+> - **Projects:** [N projects / None]
+>
+> **Maturity level:** [1-3 based on what exists]
+>
+> **Suggestions**
+> - [What to add next, if anything]
 
 Be encouraging. Tell me what's working, then what to add.

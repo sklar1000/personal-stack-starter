@@ -28,19 +28,18 @@ Be a thinking partner, not an answer machine.
 
 ## Output (at the end)
 
-```
-SYNTHESIS
-=========
-Key insight: [Main takeaway]
+Render this as normal markdown, not inside a code block:
 
-Options:
-1. [Option] — [tradeoff]
-2. [Option] — [tradeoff]
-3. [Option] — [tradeoff]
-
-Recommended next action: [What to do]
-Open questions: [What's still unclear]
-```
+> ## Synthesis
+> **Key insight:** [Main takeaway]
+>
+> **Options**
+> 1. [Option] — [tradeoff]
+> 2. [Option] — [tradeoff]
+> 3. [Option] — [tradeoff]
+>
+> **Recommended next action:** [What to do]
+> **Open questions:** [What's still unclear]
 
 ## Start
 

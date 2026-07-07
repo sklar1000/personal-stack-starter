@@ -8,20 +8,19 @@ Wrap up the current session. Document what happened and commit changes.
 
 ### 1. Summarize Work
 
-```
-SESSION SUMMARY
-===============
-Worked on: [project name]
+Render this as normal markdown (headings + bullets), not inside a code block:
 
-COMPLETED:
-- [What got done]
-
-IN PROGRESS:
-- [What's partially done — what remains]
-
-FILES CHANGED:
-- [List of modified files]
-```
+> ## Session summary
+> **Worked on:** [project name]
+>
+> **Completed**
+> - [What got done]
+>
+> **In progress**
+> - [What's partially done — what remains]
+>
+> **Files changed**
+> - [List of modified files]
 
 ### 2. Update CLAUDE.md
 
@@ -47,14 +46,10 @@ Commit types: `feat:` (new), `fix:` (correction), `docs:` (documentation), `chor
 
 ### 4. Handoff
 
-```
-NEXT SESSION
-============
-Priority: [what to focus on next]
-Context: [key thing to remember]
-
-Resume with: /start-session
-```
+> ## Next session
+> **Priority:** [what to focus on next]
+> **Context:** [key thing to remember]
+> **Resume with:** `/start-session`
 
 ### 5. Offer Push
 
